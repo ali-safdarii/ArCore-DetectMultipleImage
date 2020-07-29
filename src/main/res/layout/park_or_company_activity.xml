@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/park"
+    tools:context=".activity.ParkActivity">
+
+    <com.rm.rmswitch.RMTristateSwitch
+        android:id="@+id/switchButton"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.83"
+        app:state="middle"
+        app:switchBkgLeftColor="#fff"
+        app:switchBkgMiddleColor="#fff"
+        app:switchBkgRightColor="#fff"
+        app:switchDesign="large"
+        app:switchToggleLeftColor="#283593"
+        app:switchToggleLeftImage="@drawable/ic_switch"
+        app:switchToggleMiddleColor="#283593"
+        app:switchToggleMiddleImage="@drawable/ic_switch"
+        app:switchToggleRightColor="#283593"
+        app:switchToggleRightImage="@drawable/ic_switch" >
+
+    </com.rm.rmswitch.RMTristateSwitch>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
